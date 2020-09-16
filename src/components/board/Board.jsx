@@ -59,7 +59,7 @@ const Board = () => {
     if(myTotal === 21 || dealerTotal > 21){
       alert('You Won')
     }
-    if(dealerCards === 21 || myTotal > 21){
+    if(dealerTotal === 21 || myTotal > 21){
       alert('Dealer Won')
     }
   }, [myTotal, dealerTotal])
